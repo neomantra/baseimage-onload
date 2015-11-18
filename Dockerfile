@@ -36,8 +36,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
 
 
 # Onload version and its md5sum
-ENV ONLOAD_VERSION 201502-u3
-ENV ONLOAD_MD5SUM  0940c2e320413e23a273ee15a28d3ecf
+ENV ONLOAD_VERSION 201509
+ENV ONLOAD_MD5SUM  b093ea9f3a534c9c9fe9da6c2b6ccb7a
 
 
 # Download and verify OpenOnload from Solarflare's site
